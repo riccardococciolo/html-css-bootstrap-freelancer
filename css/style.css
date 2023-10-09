@@ -56,3 +56,35 @@ nav {
         width: 50%;
     }
 }
+
+/* portfolio */
+.wrapper-portfolio {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper-portfolio {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper-portfolio {
+        width: 80%;
+    }
+}
+
+/* about */
+.wrapper-about {
+    width: 70%;
+    margin: 0 auto;
+    color: var(--white);
+}
+
+/* contact-me */
+.wrapper-contact-me {
+    width: 70%;
+    margin: 0 auto;
+}
