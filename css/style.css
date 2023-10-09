@@ -1,0 +1,58 @@
+:root {
+    --dark-blue: rgb(44 62 80);
+    --blue: rgb(58 84 109);
+    --green: rgb(26 188 156);
+    --white: rgb(255 255 255);
+    --nav-height: 80px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header */
+
+/* nav */
+nav {
+    background-color: var(--dark-blue);
+    height: var(--nav-height);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+/* main */
+.green {
+    background-color: var(--green);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.dark-blue {
+    background-color: var(--dark-blue);
+}
+
+/* hero */
+.wrapper-hero {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    margin-top: var(--nav-height);
+    padding: 50px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper-hero {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper-hero {
+        width: 50%;
+    }
+}
